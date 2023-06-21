@@ -77,7 +77,6 @@ def change():
     if what_change == 3:
         comment = input ('Введите новый комментарий: ')
         phone_book[index] = {'name': old_name, 'phone': old_phone, 'comment': comment}
-    print(old_name, old_phone, old_comment)
     print(f'\nКонтакт: "{phone_book[index].get("name")}" успешно изменен')
     print('=' * 200 + '\n')
 
